@@ -1,0 +1,10 @@
+.todo {
+  &__card{
+    margin-bottom: 30px;
+
+    &__text{
+      margin: 0;
+      font-size: 1rem;
+    }
+  }
+}

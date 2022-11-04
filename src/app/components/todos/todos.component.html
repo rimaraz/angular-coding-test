@@ -1,0 +1,11 @@
+<div *ngIf="todos.length > 0 else loading">
+  <div *ngFor="let todo of todos"  class="todo__card">
+    <p class="todo__card__text">UserID: {{todo.userId}}</p>
+    <p class="todo__card__text">title: {{todo.title}}</p>
+    <p class="todo__card__text">id: {{todo.id}}</p>
+  </div>
+</div>
+
+<ng-template #loading>loading...</ng-template>
+
+
